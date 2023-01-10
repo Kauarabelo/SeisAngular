@@ -1,0 +1,55 @@
+
+  <app-navbar> </app-navbar>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="banner text-center">
+        <img class="rounded mx-auto d-block img-fluid" class="" src="../../../../assets/logoseis.png"/>
+
+        <div class="cadastro">
+          <a routerLink="/cadastro-cliente"
+            ><i class="fas fa-box-open"></i> CADASTRAR PEDIDO</a
+          >
+        </div>
+
+        <div class="controle">
+          <a routerLink="/controle-pedido"
+            ><i class="fas fa-clipboard-list"></i> CONTROLE PEDIDO</a
+          >
+        </div>
+      </div>
+      <br />
+    </div>
+<br>
+
+    <div class="row">
+      <div class="col">
+        <div>
+          <h1 class="text">Deseja acompanhar sua encomenda?</h1>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Digite o código de rastreamento"
+          />
+          <button>
+            <a routerLink="" class="mb-9"
+              ><i class="bi bi-search"></i>PESQUISAR</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div class="col">
+        <h2 class="text2">Veja os Pontos de Coleta mais próximo</h2>
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1833.4480962233974!2d-45.89142622399129!3d-23.210453431074548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a63d3a859fb%3A0x32d2041edcd7eff!2sMarginal%20Rodovia%20Pres.%20Dutra%2C%203539-3183%20-%20Vila%20Betania%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1667333488744!5m2!1spt-BR!2sbr"
+          width="340"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+

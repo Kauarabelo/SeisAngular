@@ -1,0 +1,47 @@
+
+.banner{
+  background-image:url(../../../../assets/pexels-norma-mortenson-4393523.jpg);
+  width: 40%;
+  padding: 24.1% 18%;
+  background-position: center top;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.banner img{
+  position: absolute;
+  width: 15%;
+  left: 3%;
+  top: 10%;
+  border-radius: 10%;
+}
+
+.form-control{
+  width: 20%;
+  top: 15%;
+  left: 50%;
+  position: absolute;
+}
+
+button{
+  width: 8%;
+  top: 20%;
+  left: 50%;
+  position: absolute;
+  text-decoration: none;
+  background-color: #EF7225;
+  padding: 3px 20px;
+  border-radius: 15px;
+}
+
+button a{
+  color: white;
+
+}
+
+.table{
+  top: 25%;
+  left: 50%;
+  position: absolute;
+  width: 30%;
+}

@@ -1,0 +1,108 @@
+.banner{
+  background-image: url(../../../../assets/inicial.jpg);
+  height: 803px;
+  background-position: center top;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.banner img{
+  position: absolute;
+  width: 16%;
+  height: 30%;
+  left: 43%;
+  top: 20%;
+  border-radius: 10%;
+}
+
+.cadastro a{
+  left: 33%;
+  top: 60%;
+  position: absolute;
+  text-decoration: none;
+  background-color: #B3CBD2;
+  color: #0F4284;
+  padding: 16px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.controle a{
+  left: 55%;
+  top: 60%;
+  position: absolute;
+  text-decoration: none;
+  background-color: #B3CBD2;
+  color: #0F4284;
+  padding: 16px 20px;
+  border-radius: 15px;
+  font-weight:bold;
+  font-size: 20px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.text{
+  background-color: #B3CBD2;
+  width: 40%;
+  height: 110%;
+  left: 34%;
+  position: absolute;
+  text-decoration: none;
+  color: #0F4284;
+  padding: 30px 20px;
+  border-radius: 10%;
+  font-weight:bold;
+  font-size: 22px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.form-control{
+  width: 38%;
+  height: 35%;
+  top: 120px;
+  left: 35%;
+  position: relative;
+  z-index: 1;
+}
+
+button{
+  width: 23%;
+  height: 35%;
+  top: 150px;
+  left: 43%;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  background-color: #EF7225;
+  padding: 3px 20px;
+  border-radius: 16px;
+}
+
+button a{
+  color: white;
+  text-decoration: none;
+}
+
+.text2{
+  background-color: #B3CBD2;
+  width: 50%;
+  height: 140%;
+  left: 25%;
+  position: absolute;
+  text-decoration: none;
+  color: #0F4284;
+  padding: 40px 20px;
+  border-radius: 6%;
+  font-weight:bold;
+  font-size: 22px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.maps{
+position:relative;
+left:31%;
+top:35%;
+border-radius: 6%;
+}

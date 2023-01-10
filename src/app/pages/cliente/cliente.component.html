@@ -1,0 +1,278 @@
+<app-navbar> </app-navbar>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col lateral">
+      <img class="logo" src="../../../assets/logoseis.png" width="300" />
+    </div>
+
+    <form [formGroup]="formCliente" #frm="ngForm" class="col" (ngSubmit)="onSubmit()">
+      <div class="formulario">
+        <h2>CADASTRO DO CLIENTE</h2>
+
+        <p>Dados do Cliente</p>
+
+        <br>
+
+        <div class="form-group">
+          <label for="nome" class="col-form-label">Nome</label>
+          <input
+            id="nome"
+            class="form-control"
+            type="text"
+            name="nome"
+            formControlName="nome"
+            placeholder="Informe seu nome completo"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="col-form-label">Email</label>
+          <input
+            id="email"
+            class="form-control"
+            type="text"
+            name="email"
+            formControlName="email"
+            placeholder="Informe seu email"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="cpf" class="col-form-label">Cpf</label>
+          <input
+            id="cpf"
+            class="form-control"
+            type="text"
+            name="cpf"
+            formControlName="cpf"
+            placeholder="Informe seu cpf"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="cidade" class="col-form-label">Cidade</label>
+          <input
+            id="cidade"
+            class="form-control"
+            type="text"
+            name="cidade"
+            formControlName="cidade"
+            placeholder="Informe sua cidade"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="cep" class="col-form-label">Cep</label>
+          <input
+            id="cep"
+            class="form-control"
+            type="text"
+            name="cep"
+            formControlName="cep"
+            placeholder="Informe seu cep"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="telefone" class="col-form-label">Telefone</label>
+          <input
+            id="telefone"
+            class="form-control"
+            type="text"
+            name="telefone"
+            formControlName="telefone"
+            placeholder="Informe seu telefone"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="uf" class="col-form-label">Estado</label>
+          <input
+            id="uf"
+            class="form-control"
+            type="text"
+            name="uf"
+            formControlName="uf"
+            placeholder="Informe seu estado (Sigla: sp)"
+            pInputText
+          />
+        </div>
+
+        <br>
+
+        <p>Dados do pedido Pedido</p>
+
+        <br>
+
+        <div class="form-group">
+          <label for="baseColeta" class="col-form-label">Base Coleta</label>
+          <input
+            id="baseColeta"
+            class="form-control"
+            type="text"
+            name="baseColeta"
+            formControlName="baseColeta"
+            placeholder="Informe a base coletora"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="baseOrigem" class="col-form-label">Base Origem</label>
+          <input
+            id="baseOrigem"
+            class="form-control"
+            type="text"
+            name="baseOrigem"
+            formControlName="baseOrigem"
+            placeholder="Informe a base de origem"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="destinatario" class="col-form-label">Destinatario</label>
+          <input
+            id="destinatario"
+            class="form-control"
+            type="text"
+            name="destinatario"
+            formControlName="destinatario"
+            placeholder="Informe o destinatario"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="destino" class="col-form-label">Destino</label>
+          <input
+            id="destino"
+            class="form-control"
+            type="text"
+            name="destino"
+            formControlName="destino"
+            placeholder="Informe o destino"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="altura" class="col-form-label">Altura</label>
+          <input
+            id="altura"
+            class="form-control"
+            type="text"
+            name="altura"
+            formControlName="altura"
+            placeholder="Informe a altura do produto"
+            pInputTextemail
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="largura" class="col-form-label">Largura</label>
+          <input
+            id="largura"
+            class="form-control"
+            type="text"
+            name="largura"
+            formControlName="largura"
+            placeholder="Informe a largura"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="peso" class="col-form-label">Peso</label>
+          <input
+            id="peso"
+            class="form-control"
+            type="text"
+            name="peso"
+            formControlName="peso"
+            placeholder="Informe o peso do produto"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="profundidade" class="col-form-label">Profundidade</label>
+          <input
+            id="profundidade"
+            class="form-control"
+            type="text"
+            name="profundidade"
+            formControlName="profundidade"
+            placeholder="Informe a produndidade"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="peso" class="col-form-label">Origem</label>
+          <input
+            id="origem"
+            class="form-control"
+            type="text"
+            name="origem"
+            formControlName="origem"
+            placeholder="Informe a origem"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="remetente" class="col-form-label">Remetente</label>
+          <input
+            id="remetente"
+            class="form-control"
+            type="text"
+            name="remetente"
+            formControlName="remetente"
+            placeholder="Informe o remetente"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="status" class="col-form-label">Status</label>
+          <input
+            id="status"
+            class="form-control"
+            type="text"
+            name="status"
+            formControlName="status"
+            placeholder="Informe o status"
+            pInputText
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="transportador" class="col-form-label"
+            >Transportador</label
+          >
+          <input
+            id="transportador"
+            class="form-control"
+            type="text"
+            name="transportador"
+            formControlName="transportador"
+            placeholder="Informe qual o transportador"
+            pInputText
+          />
+        </div>
+
+        <div class="col-auto" id="text">
+          <button type="submit" class="btn btn-warning mb-3">Próxima</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

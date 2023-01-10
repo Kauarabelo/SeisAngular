@@ -1,0 +1,49 @@
+
+
+<form [formGroup]="formLogin" class="container-fluid" (ngSubmit)="onSubmit()">
+  <div class="p-grid p-justify-center row">
+    <div class="text-center">
+      <img src="../../../../assets/icontrans.png" width="300" />
+      <h2><b>LOGIN</b></h2>
+    </div>
+
+    <div class="row">
+      <div class="form-group col">
+        <label for="email" class="col-sm-2 col-form-label">Email</label>
+        <input
+          id="email"
+          class="form-control"
+          type="email"
+          name="email"
+          placeholder="Informe seu email"
+          formControlName="email"
+          pInputText
+        />
+      </div>
+
+      <div class="form-group col">
+        <label for="senha" class="col-sm-2 col-form-label">Senha</label>
+        <input
+          id="password"
+          class="form-control"
+          type="text"
+          name="senha"
+          formControlName="senha"
+          placeholder="Informe a senha"
+          pInputText
+        />
+      </div>
+
+      <div class="p-col-12">
+        <div class="col-auto text-center">
+          <button type="submit" class="btn btn-primary mb-3">Entrar</button>
+        </div>
+
+        <p class="text-center p-col-12">
+          <br />
+          <a routerLink="/cadastro">Não tem conta? Faça seu Cadastro</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</form>

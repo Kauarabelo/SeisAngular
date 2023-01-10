@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+$background-color: #07336b !important;
+$font-color: #fff !important;
+
+.ui-card {
+  background-color: $background-color;
+  color: $font-color;
+}
+.text-center {
+  text-align: center;
+}
+
+/*responsivo*/
+.content {width:910px;}
+
+@media (max-width: 480px) {
+
+.content {width:100%;}
+
+}
