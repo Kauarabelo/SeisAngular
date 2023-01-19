@@ -1,75 +1,120 @@
 <div class="p-grid p-justify-center card">
-    <div class="p-col-10 p-sm-6 p-md-4">
+  <div class="p-col-10 p-sm-6 p-md-4">
+    <div class="p-grid">
+      <div class="p-col-12 text-center">
+        <img src="../../../assets/icontrans.png" width="300" />
+        <h2>CADASTRO</h2>
+      </div>
 
-        <div class="p-grid">
-          <div class="p-col-12 text-center">
-            <img src="../../../assets/icontrans.png" width="300">
-            <h2>CADASTRO</h2>
-          </div>
+      <div class="form-group">
+        <label for="nome" class="col-form-label">Nome</label>
+        <input
+          id="nome"
+          class="form-control"
+          type="text"
+          name="nome"
+          formControlName="nome"
+          placeholder="Informe seu Nome Completo"
+          pInputText
+        />
+      </div>
 
-          <div class="p-col-12">
-            <label for="">ID:</label>
-            <input id="nome" class="p-col-12" type="text" placeholder="Informe seu ID" pInputText />
-          </div>
+      <div class="form-group">
+        <label for="cpf" class="col-form-label">CPF</label>
+        <input
+          id="cpf"
+          class="form-control"
+          type="text"
+          name="cpf"
+          formControlName="cpf"
+          placeholder="Informe seu CPF"
+          pInputText
+        />
+      </div>
 
-          <div class="p-col-12">
-            <label for="">Nome:</label>
-            <input id="nome" class="p-col-12" type="text" placeholder="Informe seu nome" pInputText />
-          </div>
+      <div class="form-group">
+        <label for="cidade" class="col-form-label">Cidade</label>
+        <input
+          id="cidade"
+          class="form-control"
+          type="text"
+          name="cidade"
+          formControlName="cidade"
+          placeholder="Informe sua Cidade"
+          pInputText
+        />
+      </div>
 
-          <div class="p-col-12">
-            <label for="">CPF:</label>
-            <input id="cpf" class="p-col-12" type="text" placeholder="Informe seu CPF" pInputText />
-          </div>
+      <div class="form-group">
+        <label for="uf" class="col-form-label">UF</label>
+        <input
+          id="uf"
+          class="form-control"
+          type="text"
+          name="uf"
+          formControlName="uf"
+          placeholder="Informe sua UF"
+          pInputText
+        />
+      </div>
 
-          <div class="p-col-12">
-            <label for="">Cidade:</label>
-            <input id="cidade" class="p-col-12" type="text" placeholder="Informe sua Cidade" pInputText />
-          </div>
+      <div class="form-group">
+        <label for="telefone" class="col-form-label">Telefone</label>
+        <input
+          id="telefone"
+          class="form-control"
+          type="text"
+          name="telefone"
+          formControlName="telefone"
+          placeholder="Informe seu Telefone"
+          pInputText
+        />
+      </div>
 
-          <div class="p-col-12">
-            <label for="">UF:</label>
-            <input id="uf" class="p-col-12" type="text" placeholder="Informe seu UF" pInputText />
-          </div>
+      <div class="form-group">
+        <label for="email" class="col-form-label">Email</label>
+        <input
+          id="email"
+          class="form-control"
+          type="text"
+          name="email"
+          formControlName="email"
+          placeholder="Informe seu Email"
+          pInputText
+        />
+      </div>
 
-          <div class="p-col-12">
-            <label for="">Telefone:</label>
-            <input id="telefone" class="p-col-12" type="text" placeholder="Informe seu telefone" pInputText />
-          </div>
+      <div class="form-group">
+        <label for="senha" class="col-form-label">Senha</label>
+        <input
+          id="senha"
+          class="form-control"
+          type="text"
+          name="senha"
+          formControlName="senha"
+          placeholder="Digite sua Senha"
+          pInputText
+        />
+      </div>
 
-          <div class="p-col-12">
-            <label for="">E-mail:</label>
-            <input id="email" class="p-col-12" type="text" placeholder="Informe seu e-mail" pInputText />
-          </div>
+      <div class="form-group">
+        <label for="confSenha" class="col-form-label">Confirme sua Senha</label>
+        <input
+          id="confSenha"
+          class="form-control"
+          type="text"
+          name="confSenha"
+          formControlName="confSenha"
+          placeholder="Confirme sua Senha"
+          pInputText
+        />
+      </div>
 
-          <div class="p-col-12">
-            <label for="">Senha:</label>
-            <input id="senha" class="p-col-12" type="text" placeholder="Informe sua senha" pInputText />
-          </div>
+      <br>
 
-          <div class="p-col-12">
-            <label for="">Confirmar senha:</label>
-            <input class="p-col-12" type="text" placeholder="Confirme sua senha" pInputText />
-          </div>
-
-          <div class="p-col-12">
-            <button
-              pButton
-              type="button"
-              label="Cadastrar"
-              class="p-col-12"
-            >
-
-          </button>
-
-            <p class="text-center p-col-12">
-
-              <br>
-              <a routerLink="/login">Faça seu Login</a>
-
-            </p>
-          </div>
-        </div>
-
+      <div class="col-auto" id="text">
+        <button type="submit" class="btn btn-success mb-3">Cadastrar</button>
+      </div>
     </div>
   </div>
+</div>

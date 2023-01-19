@@ -2,7 +2,7 @@
 .formulario{
 
   width: 100%;
-  position: absolute;
+  position: relative;
   text-decoration: none;
   background-color: #D0E1F5;
   padding: 3% 3%;

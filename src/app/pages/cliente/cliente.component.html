@@ -6,13 +6,18 @@
       <img class="logo" src="../../../assets/logoseis.png" width="300" />
     </div>
 
-    <form [formGroup]="formCliente" #frm="ngForm" class="col" (ngSubmit)="onSubmit()">
-      <div class="formulario">
+    <form
+      [formGroup]="formCliente"
+      #frm="ngForm"
+      class="col"
+      (ngSubmit)="onSubmit()"
+    >
+      <div class="formulario rol">
         <h2>CADASTRO DO CLIENTE</h2>
 
         <p>Dados do Cliente</p>
 
-        <br>
+        <br />
 
         <div class="form-group">
           <label for="nome" class="col-form-label">Nome</label>
@@ -105,11 +110,15 @@
           />
         </div>
 
-        <br>
+        <br />
+      </div>
 
+      <br /><br /><br />
+
+      <div class="formulario rol">
         <p>Dados do pedido Pedido</p>
 
-        <br>
+        <br />
 
         <div class="form-group">
           <label for="baseColeta" class="col-form-label">Base Coleta</label>

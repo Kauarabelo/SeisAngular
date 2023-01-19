@@ -2,18 +2,17 @@
 .card {
     margin-top: 5em;
   }
-  
+
   button{
     color: white;
     background-color: #ed7b34;
   }
-  
+
   a{
     color: white;
   }
-  
+
   ::placeholder{
     font-style: italic;
   }
-  
-  
+
