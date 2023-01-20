@@ -35,6 +35,12 @@ p{
   font-size: 30px;
 }
 
+.oi{
+  position: absolute;
+  left: 25%;
+  top: 2%;
+  border-radius: 10%;
+}
 
 
 

@@ -1,9 +1,15 @@
-<app-navbar> </app-navbar>
+<nav class="navbar navbar-expand-lg" style="background-color: #0F4284;">
+  <div class="navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+    <br><br>
+    </ul>
+  </div>
+</nav>
 
 <div class="container-fluid">
   <div class="row">
     <div class="col lateral">
-      <img class="logo" src="../../../assets/logoseis.png" width="300" />
+      <img class="oi" src="../../../assets/logoseis.png" width="300" />
     </div>
 
     <form
@@ -12,7 +18,7 @@
       class="col"
       (ngSubmit)="onSubmit()"
     >
-      <div class="formulario rol">
+      <div class="formulario">
         <h2>CADASTRO DO CLIENTE</h2>
 
         <p>Dados do Cliente</p>
@@ -115,7 +121,7 @@
 
       <br /><br /><br />
 
-      <div class="formulario rol">
+      <div class="formulario">
         <p>Dados do pedido Pedido</p>
 
         <br />
@@ -279,7 +285,7 @@
         </div>
 
         <div class="col-auto" id="text">
-          <button type="submit" class="btn btn-warning mb-3">Próxima</button>
+          <button type="submit" routerLink="/pagamento" class="btn btn-warning mb-3">Próxima</button>
         </div>
       </div>
     </form>
