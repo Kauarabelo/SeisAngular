@@ -1,0 +1,23 @@
+.banner{
+  background-image:url(../../../assets/pexels-norma-mortenson-4393523.jpg);
+  width: 40%;
+  padding: 24.1% 18%;
+  background-position: center top;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.banner img{
+  position: absolute;
+  width: 15%;
+  left: 3%;
+  top: 10%;
+  border-radius: 10%;
+}
+
+.table{
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  width: 30%;
+}

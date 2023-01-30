@@ -11,9 +11,10 @@ import { ControleComponent } from './pages/controle/controle/controle.component'
 import { LoginComponent } from './pages/login/login/login.component';
 import { MenuComponent } from './pages/menu/menu/menu.component';
 import { PagamentoComponent } from './pages/pagamento/pagamento/pagamento.component';
-// import { PedidoComponent } from './pages/pedido/pedido/pedido.component';
 import { NavbarComponent } from './pages/sharepage/navbar/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RastreioComponent } from './pages/rastreio/rastreio.component';
+import { HomeComponent } from './pages/home/home.component';
 
 
 @NgModule({
@@ -25,8 +26,9 @@ import { HttpClientModule } from '@angular/common/http';
     LoginComponent,
     MenuComponent,
     PagamentoComponent,
-    // PedidoComponent,
-    NavbarComponent
+    NavbarComponent,
+    RastreioComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

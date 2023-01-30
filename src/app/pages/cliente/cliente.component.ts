@@ -20,8 +20,8 @@ export class ClienteComponent implements OnInit {
   }
 
   createForm(cliente: ClienteClass) {
+    console.log('clienteeeee',cliente)
     this.formCliente = this.formBuilder.group({
-
       email: [cliente.email],
       nome: [cliente.nome],
       cpf: [cliente.cpf],
@@ -47,7 +47,7 @@ export class ClienteComponent implements OnInit {
 
   onSubmit() {
     // manda as informações ao console
-    console.log(this.formCliente.value);
+    console.log('aaaaaaaaaaaaaaaaaaaa',this.formCliente.value);
     // axios.post("http://localhost:8080/cliente/add", this.formCliente.value).then(result => { console.log(result); })
     return this.http.post("http://localhost:8080/cliente/add" ,this.formCliente.value)
     this.createForm(new ClienteClass());

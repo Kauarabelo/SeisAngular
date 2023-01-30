@@ -1,4 +1,3 @@
-
 .formulario{
 
   width: 100%;
@@ -27,8 +26,11 @@ button{
 }
 
 .lateral{
-  width: 50%;
-  background-image: url(../../../assets/pexels-norma-mortenson-4393523.jpg);
+  background-image:url(../../../assets/pexels-norma-mortenson-4393523.jpg);
+  padding: 24.1% 18%;
+  background-position: center top;
+  background-size: cover;
+  opacity: 0.95;
 }
 
 p{
@@ -37,10 +39,9 @@ p{
 
 .oi{
   position: absolute;
-  left: 25%;
+  left: 15%;
   top: 2%;
   border-radius: 10%;
 }
-
 
 

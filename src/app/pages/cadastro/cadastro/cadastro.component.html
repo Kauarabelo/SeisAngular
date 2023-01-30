@@ -1,11 +1,16 @@
-<div class="p-grid p-justify-center card">
-  <div class="p-col-10 p-sm-6 p-md-4">
-    <div class="p-grid">
-      <div class="p-col-12 text-center">
-        <img src="../../../assets/icontrans.png" width="300" />
-        <h2>CADASTRO</h2>
-      </div>
+<div class="p-col-10 p-sm-6 p-md-4">
+  <div class="p-grid">
+    <div class="p-col-12 text-center">
+      <img src="../../../assets/icontrans.png" width="300" />
+      <h2>CADASTRO</h2>
+    </div>
 
+    <form
+      [formGroup]="formCadastro"
+      #frm="ngForm"
+      class="col"
+      (ngSubmit)="onSubmit()"
+    >
       <div class="form-group">
         <label for="nome" class="col-form-label">Nome</label>
         <input
@@ -110,11 +115,12 @@
         />
       </div>
 
-      <br>
+      <br />
 
       <div class="col-auto" id="text">
-        <button type="submit"class="btn btn-success mb-3">Cadastrar</button>
+        <button type="submit" routerLink="/login" class="btn btn-success mb-3">Cadastrar</button>
       </div>
-    </div>
+    </form>
   </div>
 </div>
+
